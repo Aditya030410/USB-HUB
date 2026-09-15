@@ -72,7 +72,7 @@ So I decided to make a small USB hub as a learning project.
 # BOM of All Components in the PCB
 |No.                                         |Quantity                        |Comment|Designator             |Footprint                       |Value|Manufacturer Part    |Manufacturer   |Supplier Part|Supplier| Link 
 |--------------------------------------------|--------------------------------|-------|-----------------------|--------------------------------|-----|---------------------|---------------|-------------|--------|------------------------------ 
-|1                                           |8                               |1uF    |C1,C2,C3,C4,C5,C6,C7,C8|C0603                           |1uF  |C0603X105K025T       |IHHEC(禾伸堂)     |C559292      |LCSC    | [open[(https://www.lcsc.com/product-image/C559292.html)  |
+|1                                           |8                               |1uF    |C1,C2,C3,C4,C5,C6,C7,C8|C0603                           |1uF  |C0603X105K025T       |IHHEC(禾伸堂)     |C559292      |LCSC    | https://www.lcsc.com/product-image/C559292.html  |
 |2                                           |3                               |100nF  |C9,C10,C11             |C0603                           |100nF|CC0603KRX7R9BB104    |YAGEO(国巨)      |C14663       |LCSC    |
 |3                                           |1                               |10kΩ   |R1                     |R0603                           |10kΩ |0603WAF1002T5E       |UNI-ROYAL(厚声)  |C25804       |LCSC    |
 |4                                           |5                               |5.1kΩ  |R2,R3,R4,R5,R6         |R0603                           |5.1kΩ|0603WAF5101T5E       |UNI-ROYAL(厚声)  |C23186       |LCSC    |
