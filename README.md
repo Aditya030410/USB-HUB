@@ -1,5 +1,60 @@
-# USB HUB
-- The Files uploaded are for my custom USB HUB which can be reviewed on any EDA platform. It has an Upstream port of C-Type and 4 downstream ports, 2 are A-type and 2 are C-type. It can be used for a laptop to connect more USB devices allowing u to connect upto 4 more devices !!
+# USB Hub 
+
+A small USB hub that takes **one USB-C connection** and gives **2 USB-C ports + 2 USB-A ports**.
+
+I made this as a hardware project to get more comfortable with designing PCBs, working with USB, and actually taking an idea from a schematic to a physical board.
+
+---
+
+## What is this?
+
+Basically, I wanted to make my own USB hub instead of just buying one.
+
+The idea is pretty simple:
+
+**1 USB-C input → 2 USB-C outputs + 2 USB-A outputs**
+
+The USB-C port is used to connect the hub to a computer/device, and the other ports can be used for peripherals such as keyboards, mice, flash drives, controllers, etc.
+
+It's not meant to compete with commercial USB hubs. This was mainly a learning project where I could figure out how the different parts of a USB device fit together.
+
+---
+
+## Why I made it
+
+I've been getting more interested in hardware lately, especially PCBs, Arduino projects, robotics and actually building things instead of only writing software.
+
+USB seemed like a good project because it looks simple from the outside:
+
+> plug one thing in → get more ports
+
+But once I started looking into it, there were a lot more things to understand.
+
+Things like:
+
+- USB data lines
+- USB-C connections
+- power distribution
+- PCB routing
+- connectors
+- ESD protection
+- signal integrity
+- choosing the right USB hub controller
+- making sure everything is actually connected correctly
+
+So I decided to make a small USB hub as a learning project.
+---
+
+## Features
+
+- 1 × USB-C upstream connection
+- 2 × USB-C downstream ports
+- 2 × USB-A downstream ports
+- Custom PCB
+- Compact board layout
+- Designed from scratch
+- Intended for everyday USB peripherals
+
 # PCB Schematic
 <img width="931" height="654" alt="Screenshot 2026-06-12 215259" src="https://github.com/user-attachments/assets/d2a08c0f-9a00-4d4f-8c3c-988390521ae6" />
 
